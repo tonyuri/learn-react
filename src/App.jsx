@@ -55,7 +55,7 @@ function App() {
         Hover over me!
       </div>
       <input type="text" onKeyDown={handleKeyDown} onFocus={() => console.log('Input focused')} onBlur={() => console.log('Input blurred')}/>
-
+      <footer>Hello github, this is my first commit</footer>
     </Layout>
   )
 }
