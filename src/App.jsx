@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
 // Components
 import Greeting from './components/Greeting.jsx'
 import Card from './components/Card.jsx'
@@ -39,7 +40,7 @@ function App() {
       {/* Child components */}
       <Greeting name="John" age={30} position={position} isLoggedIn={true} hasMessage={true}/>
       <Card title="ReactJS">
-        <p>Learn ReactJS for beginners</p>
+        Learn ReactJS for beginners
       </Card>
       <Userlist />
       <Categories />
