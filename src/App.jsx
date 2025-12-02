@@ -53,7 +53,7 @@ function App() {
         onMouseLeave={handleMouseLeave}
         style={{padding: "20px", backgroundColor: bgColor, transition: "0.3s"}}
       >
-        Hover over me!
+        Hover over me! here
       </div>
       <input type="text" onKeyDown={handleKeyDown} onFocus={() => console.log('Input focused')} onBlur={() => console.log('Input blurred')}/>
       <div style={{backgroundColor: "yellow", padding: "20px", borderRadius: "10px"}}>
